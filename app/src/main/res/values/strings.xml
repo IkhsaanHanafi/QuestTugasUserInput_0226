@@ -8,4 +8,12 @@
     <string name="birth_date">Tgl Lahir</string>
     <string name="experience">Experience</string>
     <string name="skill_title">Pilih Skill Anda :</string>
+    <string name="skill_android">Android</string>
+    <string name="skill_uiux">UI/UX</string>
+    <string name="skill_web">Web</string>
+    <string name="proceed">Proceed</string>
+    <string name="experience_beginner">Beginner</string>
+    <string name="experience_intermediate">Intermediate</string>
+    <string name="experience_advanced">Advanced</string>
+    <string name="success_message">Biodata berhasil diisi</string>
 </resources>
