@@ -37,7 +37,19 @@ class MainActivity : ComponentActivity() {
                             .padding(start = 16.dp, end = 16.dp, top = 180.dp, bottom = 24.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        // Column items
+                        Surface(
+                            modifier = Modifier.fillMaxWidth(),
+                            shape = RoundedCornerShape(22.dp),
+                            color = formColor,
+                            shadowElevation = 10.dp
+                        ) {
+                            Column(
+                                modifier = Modifier.padding(16.dp),
+                                verticalArrangement = Arrangement.spacedBy(12.dp)
+                            ) {
+                                // Surface contents
+                            }
+                        }
                     }
                 }
             }
