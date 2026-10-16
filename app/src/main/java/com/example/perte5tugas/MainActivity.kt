@@ -15,7 +15,13 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     containerColor = colorResource(R.color.white)
                 ) { innerPadding ->
-                    // Padding container
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
+                    ) {
+                        // Content box
+                    }
                 }
             }
         }
