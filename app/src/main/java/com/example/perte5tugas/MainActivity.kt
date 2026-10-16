@@ -20,7 +20,15 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
-                        // Content box
+                        Image(
+                            painter = painterResource(R.drawable.bg_neon_spider),
+                            contentDescription = null,
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(270.dp)
+                                .align(Alignment.TopCenter),
+                            contentScale = ContentScale.Crop
+                        )
                     }
                 }
             }
