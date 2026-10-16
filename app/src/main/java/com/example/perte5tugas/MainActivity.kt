@@ -30,6 +30,15 @@ class MainActivity : ComponentActivity() {
                             contentScale = ContentScale.Crop
                         )
                     }
+                    Column(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .verticalScroll(rememberScrollState())
+                            .padding(start = 16.dp, end = 16.dp, top = 180.dp, bottom = 24.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        // Column items
+                    }
                 }
             }
         }
