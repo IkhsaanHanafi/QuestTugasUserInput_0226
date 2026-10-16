@@ -47,7 +47,19 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.padding(16.dp),
                                 verticalArrangement = Arrangement.spacedBy(12.dp)
                             ) {
-                                // Surface contents
+                                Text(
+                                    text = stringResource(R.string.form_title),
+                                    color = purple,
+                                    fontSize = 23.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                                )
+                                Text(
+                                    text = stringResource(R.string.form_subtitle),
+                                    color = colorResource(R.color.text_secondary),
+                                    fontSize = 11.sp,
+                                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                                )
                             }
                         }
                     }
